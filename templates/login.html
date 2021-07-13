@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>ログイン画面</h3>
+<form action="/login_post"method="POST">
+    <p>ユーザーネーム</p>
+    <input type="text" name="html_name">
+    <p>パスワード</p>
+    <input type="password" name="html_pswd" >
+    <input type="submit" value="ログイン">
+
+</form>
+{% endblock %}
